@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+plotly
+statsmodels
+scikit-learn
+prophet
+holidays
+openpyxl
+xlsxwriter
