@@ -7,7 +7,7 @@ from io import BytesIO
 import holidays  # Librería para festivos fijos de Colombia
 
 # Modelos estadísticos y Series Temporales
-from statsmodels.tsa.stattools import adfuller, kpss, acf
+from statsmodels.tsa.stattools import adfuller, acf
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 from statsmodels.tsa.statespace.sarimax import SARIMAX
@@ -335,19 +335,6 @@ if uploaded_file:
                 st.success("✅ **ADF:** Serie **Estacionaria**.")
             else:
                 st.warning("⚠️ **ADF:** Serie **No Estacionaria**.")
-
-            try:
-                kpss_result = kpss(series_vals, regression='c', nlags="auto")
-                st.markdown(f"**Test KPSS:**")
-                st.write(f"- Estadístico KPSS: `{kpss_result[0]:.4f}`")
-                st.write(f"- p-valor: `{kpss_result[1]:.4f}`")
-                if kpss_result[1] > 0.05:
-                    st.success("✅ **KPSS:** Serie **Estacionaria**.")
-                else:
-                    st.warning("⚠️ **KPSS:** Serie **No Estacionaria**.")
-            except:
-                pass
-
     with col_stat2:
         st.subheader("📉 Autocorrelación (ACF)")
         try:
