@@ -103,3 +103,19 @@ Para utilizar la aplicación, sube un archivo **CSV** o **Excel** desde el panel
 | `03/01/2025` | `1490` |
 
 > **Nota:** El formato de fecha recomendado es `DD/MM/AAAA`. La plataforma limpiará valores nulos y ordenará la serie cronológicamente de forma automática.
+
+## 🚀 Prueba la Aplicación en Vivo
+
+¿Quieres probar la plataforma sin necesidad de instalar nada en tu computadora? Puedes acceder a la versión web desplegada y interactuar con tus propios datos en tiempo real:
+
+<div align="center">
+
+<a href="https://app-series-temporales-mxe8mxfpsbjwsilgriyjcn.streamlit.app/" target="_blank">
+  <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App" height="40">
+</a>
+
+[🔗 Acceder a la Plataforma de Series Temporales](https://app-series-temporales-mxe8mxfpsbjwsilgriyjcn.streamlit.app/)
+
+</div>
+
+---
