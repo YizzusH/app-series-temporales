@@ -16,7 +16,7 @@
 
 <br>
 
-<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1000&q=80" alt="Vista general de analítica y series temporales" width="85%" style="border-radius: 10px;">
+<img src="assets/IMG1.JPG" alt="Vista general de analítica y series temporales" width="85%" style="border-radius: 10px;">
 
 </div>
 
@@ -55,12 +55,12 @@ A diferencia de los scripts tradicionales que requieren configurar cada algoritm
   <table>
     <tr>
       <td align="center">
-        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=450&q=80" alt="Diagnóstico y Descomposición" width="100%">
+        <img src="assets/IMG2.JPG" alt="Diagnóstico y Descomposición" width="100%">
         <br>
         <sub><b>1. Diagnóstico y Descomposición Estacional</b></sub>
       </td>
       <td align="center">
-        <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=450&q=80" alt="Proyección Futura e Intervalos" width="100%">
+        <img src="assets/IMG3.JPG" alt="Proyección Futura e Intervalos" width="100%">
         <br>
         <sub><b>2. Torneo de Modelos y Proyección al 95%</b></sub>
       </td>
